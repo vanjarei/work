@@ -1,6 +1,6 @@
 apt update
 apt install linux-headers-amd64
-sudo apt install -t stable-backports zfsutils-linux
+apt install -t stable-backports zfsutils-linux
 
 see all disk 
 lsblk
