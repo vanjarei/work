@@ -25,6 +25,7 @@ zpool create tank scsi-35000cca2735cbc38 scsi-35000cca266cc4b3c
 single disk stripe pool
 zpool create tank scsi-35000cca26c108480
 
-
+making a snapshot of tank/data
+ zfs snapshot tank/data@2019-06-24
 
     
