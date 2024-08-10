@@ -1,7 +1,7 @@
 Install ZFS in Debian
- apt update
- apt install linux-headers-amd64
- apt install -t stable-backports zfsutils-linux
+    apt update
+    apt install linux-headers-amd64
+    apt install -t stable-backports zfsutils-linux
 
 see all disk 
  lsblk
